@@ -451,11 +451,7 @@ a {
   letter-spacing: var(--mainSpacing);
 }
 /************ navbar *****************/
-/* add :not(.nav-logo) to img */
 
-/* .navbar {
-  background: red;
-} */
 .nav-icons {
   display: none;
 }
