@@ -491,7 +491,7 @@ a {
   background: var(--darkGrey);
   padding-left: 2.25rem;
 }
-/* nav toggle functionality */
+
 .nav-links {
   height: 0;
   overflow: hidden;
