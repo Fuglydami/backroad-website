@@ -123,9 +123,14 @@ function multiply(a, b, c) {
 // console.log(calculate(2, 7));
 // console.log(multiply(2, 2, 2));
 
+function calculateBill(wesTotal, wesTaxRate){
+  return wesTaxRate * wesTotal
+}
+
 const wesTotal = 500;
 const wesTaxRate = 0.3;
 const myTotal = calculateBill(wesTotal, wesTaxRate);
 
 console.log(myTotal);
 output = 150;
+
