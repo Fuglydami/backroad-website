@@ -23,7 +23,7 @@ let dami = 208024352304878932;
 let ayo = 823892345892348;
 let chukuma = 76237834;
 
-console.log(dami - ayo - chukuma);
+// console.log(dami - ayo - chukuma);
 
 // camel case
 const iLovePizza = true;
@@ -36,18 +36,18 @@ const sentence = `she's so cool`;
 // console.log(1 + '2');
 // gender = 'female';
 
-const name = 'dami';
-const hello = `hello name is ${name}, Nice to meet you. I am ${
-  1 + 5
-} years old`;
+// const name = 'dami';
+// const hello = `hello name is ${name}, Nice to meet you. I am ${
+//   1 + 5
+// } years old`;
 
-let checkAge = true;
+// let checkAge = true;
 
-if (checkAge === true) {
-  console.log('correct');
-} else {
-  console.log('wrong');
-}
+// if (checkAge === true) {
+//   console.log('correct');
+// } else {
+//   console.log('wrong');
+// }
 
 // console.log(hello);
 
@@ -70,3 +70,62 @@ if (checkAge === true) {
 // } else {
 //   console.log('Dami is the younger brother to ayo');
 // }
+
+// objects
+
+let dog;
+
+// const person = {
+//   firstName: 'dami',
+//   lastName: 'ogochukwu',
+//   age: dog,
+// };
+
+null;
+undefined;
+
+// person.first = 'chukwuma';
+
+// console.log(person.age);
+
+// console.log(typeof 'dami');
+// console.log(undefined === null);
+
+const age = 100;
+const age2 = '100';
+
+// console.log(age == age2);
+
+// functions
+
+// console.log(Math.round(20.88));
+// console.log(alert('hello'));
+
+// function calculate() {
+//   console.log('Hello');
+// }
+
+// a and b is the parameter while 2 and 7 is the argument
+function calculate(a, b) {
+  return a + b;
+}
+
+function multiply(a, b, c) {
+  return a * b * c;
+}
+
+// const person = {
+//   firstName: 'dami',
+//   lastName: 'ogochukwu',
+//   age: calculate(2, 7),
+// };
+
+// console.log(calculate(2, 7));
+// console.log(multiply(2, 2, 2));
+
+const wesTotal = 500;
+const wesTaxRate = 0.3;
+const myTotal = calculateBill(wesTotal, wesTaxRate);
+
+console.log(myTotal);
+output = 150;
