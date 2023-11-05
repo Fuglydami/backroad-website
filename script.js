@@ -110,9 +110,20 @@ function calculate(a, b) {
   return a + b;
 }
 
+calculate(2, 6);
+
 function multiply(a, b, c) {
   return a * b * c;
 }
+
+function logMessage() {
+  return `my name is ${person.firstname + ' ' + person.lastname} , i am ${
+    person.age
+  } `;
+}
+
+// 1) create a person object that contains the following properties (firstname,lastname and age)
+// 2) call the logMessage
 
 // const person = {
 //   firstName: 'dami',
@@ -122,10 +133,6 @@ function multiply(a, b, c) {
 
 // console.log(calculate(2, 7));
 // console.log(multiply(2, 2, 2));
-
-function calculateBill(wesTotal, wesTaxRate){
-  return wesTaxRate * wesTotal
-}
 
 const wesTotal = 500;
 const wesTaxRate = 0.3;
