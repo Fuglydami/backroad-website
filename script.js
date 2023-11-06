@@ -106,21 +106,31 @@ const age2 = '100';
 // }
 
 // a and b is the parameter while 2 and 7 is the argument
-function calculate(a, b) {
-  return a + b;
-}
+// function calculate(a, b) {
+//   return a + b;
+// }
 
-calculate(2, 6);
+// calculate(2, 6);
 
-function multiply(a, b, c) {
-  return a * b * c;
-}
+// function multiply(a, b, c) {
+//   return a * b * c;
+// }
 
-function logMessage() {
-  return `my name is ${person.firstname + ' ' + person.lastname} , i am ${
-    person.age
-  } `;
-}
+// const person = {
+//   firstname: 'kenneth',
+//   lastname: 'john',
+//   age: 23,
+// }
+
+// console.log(logMessage())
+
+
+
+// function logMessage() {
+//   return `my name is ${person.firstname + ' ' + person.lastname} , i am ${
+//     person.age
+//   } `;
+// }
 
 // 1) create a person object that contains the following properties (firstname,lastname and age)
 // 2) call the logMessage
@@ -134,10 +144,18 @@ function logMessage() {
 // console.log(calculate(2, 7));
 // console.log(multiply(2, 2, 2));
 
-const wesTotal = 500;
-const wesTaxRate = 0.3;
-const myTotal = calculateBill(wesTotal, wesTaxRate);
+// const wesTotal = 500;
+// const wesTaxRate = 0.3;
+// const myTotal = calculateBill(wesTotal, wesTaxRate);
 
-console.log(myTotal);
-output = 150;
+// console.log(myTotal);
+// output = 150;
 
+const person = {
+  firstName: "John",
+  lastName: "Doe"
+};
+
+alert(
+person.firstName
+);
