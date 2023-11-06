@@ -75,11 +75,11 @@ const sentence = `she's so cool`;
 
 let dog;
 
-// const person = {
-//   firstName: 'dami',
-//   lastName: 'ogochukwu',
-//   age: dog,
-// };
+const person = {
+  firstName: 'dami',
+  lastName: 'ogochukwu',
+  age: 30,
+};
 
 null;
 undefined;
@@ -116,11 +116,52 @@ function multiply(a, b, c) {
   return a * b * c;
 }
 
-function logMessage() {
-  return `my name is ${person.firstname + ' ' + person.lastname} , i am ${
-    person.age
-  } `;
-}
+// function logMessage() {
+//   return `my name is ${person.firstname + ' ' + person.lastname} , i am ${
+//     person.age
+//   } `;
+// }
+
+// const logMessage = function () {
+//   return `my name is ${person.firstname + ' ' + person.lastname} , i am ${
+//     person.age
+//   } `;
+// };
+
+// arrow method
+
+// const writeName = (name, age) => {
+//   console.log(`my name is ${name} and i am ${age} years old`);
+// };
+// const writeName2 = (name, age) => {
+//   console.log(`my name is ${name} and i am ${age} years old`);
+// };
+
+// const LogMessage = () => {
+//   writeName('Dami', 30);
+//   writeName2('chukwuma', 50);
+// };
+
+// writeName();
+
+// function writeName() {
+//   console.log('hello');
+// }
+
+const writeName = (a, b = 3) => {
+  console.log(a + b);
+};
+
+writeName(2, 3);
+
+// declare a function that takes 2 parameters (state and country ), where state has a default value of "lagos".
+// let output be "I reside in lagos, Nigeria"
+
+// const LogMessage = () => console.log('hello');
+
+// const LogMessage = () => `my name is ${person.firstName + ' ' + person.lastName} , i am ${ person.age} `;
+
+// console.log(LogMessage());
 
 // 1) create a person object that contains the following properties (firstname,lastname and age)
 // 2) call the logMessage
