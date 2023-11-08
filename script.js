@@ -154,11 +154,32 @@ const age2 = '100';
 
 // writeName(2, 3);
 
-const countryName = (state = "lagos", country) => {
-  console.log(`I reside in ${state}, Nigeria`);
+// const countryName = (state = "lagos", country) => {
+//   console.log(`I reside in ${state}, Nigeria`);
 
-};
-countryName()
+// };
+// countryName()
+
+// function square() {
+//   return 25 * 25
+// }
+// console.log(square())
+
+
+
+
+function tellFortune(numChildren, partnerName, geoLocation, jobTitle) {
+  console.log("You will be a " + jobTitle + " in " + geoLocation + ", and married to " + partnerName + " with " + numChildren + " kids.");
+}
+tellFortune(2, "joclyn", "Lagos", "programmer");
+tellFortune(3, "sharon", "abuja", "banker");
+tellFortune(5, "sayi", "New Yoke", "footballer")
+
+
+
+
+
+
 
 // declare a function that takes 2 parameters (state and country ), where state has a default value of "lagos".
 // let output be "I reside in lagos, Nigeria"
