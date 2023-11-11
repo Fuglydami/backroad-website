@@ -64,7 +64,7 @@ p {
 a {
   text-decoration: none;
 }
-i{
+i {
   cursor: pointer;
 }
 /* more global styles */
@@ -306,6 +306,11 @@ i{
 }
 .tour-link {
   text-align: center;
+}
+
+.round {
+  transform: rotate(20deg);
+  border-radius: 50px;
 }
 /* tour date */
 .tour-img-container {
