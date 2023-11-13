@@ -185,14 +185,32 @@ writeName(2, 3);
 // const img = globalThis.querySelector('.tour-img');
 // console.log(img);
 
-const img = document.querySelectorAll('.tour-img-container img');
+// const img = document.querySelectorAll('.tour-img-container img');
 
-function toggleRound(event) {
-  const clickedImg = event.target;
-  clickedImg.classList.toggle('round');
-}
+// function toggleRound(event) {
+//   const clickedImg = event.target;
+//   clickedImg.classList.toggle('round');
+// }
 
-img.forEach((img) => {
-  img.addEventListener('click', toggleRound);
-});
-img.addEventListener('click', toggleRound);
+// img.forEach((img) => {
+//   img.addEventListener('click', toggleRound);
+// });
+// img.addEventListener('click', toggleRound);
+
+const myParagragh = document.createElement('p');
+
+myParagragh.textContent = 'I am a boy';
+myParagragh.classList.add('ptag');
+
+console.log(myParagragh);
+
+const myImage = document.createElement('img');
+myImage.src =
+  'https://images.pexels.com/photos/18885164/pexels-photo-18885164/free-photo-of-wedding-couple-in-a-park.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1';
+myImage.alt = 'picture of a couple';
+
+console.log(myImage);
+
+const myDiv = document.createElement('div');
+myDiv.classList.add('container');
+console.log(myDiv);
