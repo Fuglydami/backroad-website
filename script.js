@@ -208,6 +208,21 @@ tellFortune(5, "sayi", "New Yoke", "footballer")
 
 // console.log(myTotal);
 // output = 150;
+// Document object model
+// const img = globalThis.querySelector('.tour-img');
+// console.log(img);
+
+const img = document.querySelectorAll('.tour-img-container img');
+
+function toggleRound(event) {
+  const clickedImg = event.target;
+  clickedImg.classList.toggle('round');
+}
+
+img.forEach((img) => {
+  img.addEventListener('click', toggleRound);
+});
+img.addEventListener('click', toggleRound);
 
 // const person = {
 //   firstName: "John",
