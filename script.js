@@ -213,4 +213,7 @@ console.log(myImage);
 
 const myDiv = document.createElement('div');
 myDiv.classList.add('container');
+
+myDiv.appendChild(myParagragh);
+
 console.log(myDiv);
