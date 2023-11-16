@@ -197,23 +197,44 @@ writeName(2, 3);
 // });
 // img.addEventListener('click', toggleRound);
 
-const myParagragh = document.createElement('p');
+// const myParagragh = document.createElement('p');
 
-myParagragh.textContent = 'I am a boy';
-myParagragh.classList.add('ptag');
+// myParagragh.textContent = 'I am a boy';
+// myParagragh.classList.add('ptag');
 
-console.log(myParagragh);
+// // console.log(myParagragh);
 
-const myImage = document.createElement('img');
-myImage.src =
-  'https://images.pexels.com/photos/18885164/pexels-photo-18885164/free-photo-of-wedding-couple-in-a-park.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1';
-myImage.alt = 'picture of a couple';
+// const myImage = document.createElement('img');
+// myImage.src =
+//   'https://images.pexels.com/photos/18885164/pexels-photo-18885164/free-photo-of-wedding-couple-in-a-park.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1';
+// myImage.alt = 'picture of a couple';
 
-console.log(myImage);
+// // console.log(myImage);
 
-const myDiv = document.createElement('div');
-myDiv.classList.add('container');
+// const myDiv = document.createElement('div');
+// myDiv.classList.add('container');
 
-myDiv.appendChild(myParagragh);
+// myDiv.appendChild(myParagragh);
 
-console.log(myDiv);
+// // console.log(myDiv);
+
+// const list = document.createElement('ul');
+// const li = document.createElement('li');
+
+// li.textContent = 'three';
+// list.appendChild(li);
+
+// console.log(list);
+
+const contactTitle = document.querySelector('.contact-title');
+console.log(contactTitle.remove());
+
+const container = document.querySelector('.contact-center');
+console.log(container.firstElementChild, 'firstElementChild');
+
+// console.log(contactTitle.firstElementChild, 'firstElementChild');
+// console.log(contactTitle.lastElementChild, 'lastElementChild');
+// console.log(contactTitle.previousElementSibling, 'previousElementSibling');
+// console.log(contactTitle.parentElement, 'parentElement');
+// console.log(contactTitle.children, 'children');
+// console.log(contactTitle.childElementCount, 'childElementCount');
