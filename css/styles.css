@@ -312,6 +312,12 @@ i {
   transform: rotate(20deg);
   border-radius: 50px;
 }
+.show {
+  opacity: 1;
+}
+.hide {
+  opacity: 0;
+}
 /* tour date */
 .tour-img-container {
   position: relative;

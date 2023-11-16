@@ -226,11 +226,11 @@ writeName(2, 3);
 
 // console.log(list);
 
-const contactTitle = document.querySelector('.contact-title');
-console.log(contactTitle.remove());
+// const contactTitle = document.querySelector('.contact-title');
+// console.log(contactTitle.remove());
 
-const container = document.querySelector('.contact-center');
-console.log(container.firstElementChild, 'firstElementChild');
+// const container = document.querySelector('.contact-center');
+// console.log(container.firstElementChild, 'firstElementChild');
 
 // console.log(contactTitle.firstElementChild, 'firstElementChild');
 // console.log(contactTitle.lastElementChild, 'lastElementChild');
@@ -238,3 +238,17 @@ console.log(container.firstElementChild, 'firstElementChild');
 // console.log(contactTitle.parentElement, 'parentElement');
 // console.log(contactTitle.children, 'children');
 // console.log(contactTitle.childElementCount, 'childElementCount');
+
+const button = document.querySelector('.btn-submit');
+
+const handleButton = () => {
+  const pTag = document.querySelector('.contact-title p');
+  pTag.classList.toggle('hide');
+};
+
+button.addEventListener('click', handleButton);
+
+// button.addEventListener('click', () => {
+//   const pTag = document.querySelector('.contact-title p');
+//   pTag.classList.toggle('hide');
+// });
