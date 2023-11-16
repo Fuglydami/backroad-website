@@ -211,10 +211,40 @@ myImage.alt = 'picture of a couple';
 
 console.log(myImage);
 
+
+const meParagragh = document.createElement('p');
+meParagragh.textContent = "javascript is hard but we will pull throught"
+console.log(meParagragh)
+
+
+
+const myspan = document.createElement('span');
+myspan.appendChild(meParagragh)
+console.log(myspan)
+
+
+
+
+
+
 const myDiv = document.createElement('div');
 myDiv.textContent = 'my name'
 myDiv.classList.add('container');
 
+myDiv.appendChild(myImage)
+
 myDiv.appendChild(myParagragh);
 
 console.log(myDiv);
+
+
+
+
+
+const meDiv = document.createElement('div');
+meDiv.classList.add("header");
+meDiv.appendChild(myspan)
+
+console.log(meDiv);
+
+
