@@ -197,45 +197,66 @@ writeName(2, 3);
 // });
 // img.addEventListener('click', toggleRound);
 
-const myParagragh = document.createElement('p');
+// const myParagragh = document.createElement('p');
 
-myParagragh.textContent = 'I am a boy';
-myParagragh.classList.add('ptag');
+// myParagragh.textContent = 'I am a boy';
+// myParagragh.classList.add('ptag');
 
-console.log(myParagragh);
+// console.log(myParagragh);
 
-const myImage = document.createElement('img');
-myImage.src =
-  'https://images.pexels.com/photos/18885164/pexels-photo-18885164/free-photo-of-wedding-couple-in-a-park.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1';
-myImage.alt = 'picture of a couple';
+// const myImage = document.createElement('img');
+// myImage.src =
+//   'https://images.pexels.com/photos/18885164/pexels-photo-18885164/free-photo-of-wedding-couple-in-a-park.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1';
+// myImage.alt = 'picture of a couple';
 
-console.log(myImage);
-
-
-const meParagragh = document.createElement('p');
-meParagragh.textContent = "javascript is hard but we will pull throught"
-console.log(meParagragh)
+// console.log(myImage);
 
 
-
-const myspan = document.createElement('span');
-myspan.appendChild(meParagragh)
-console.log(myspan)
+// const meParagragh = document.createElement('p');
+// meParagragh.textContent = "javascript is hard but we will pull throught"
+// console.log(meParagragh)
 
 
 
+// const myspan = document.createElement('span');
+// myspan.appendChild(meParagragh)
+// console.log(myspan)
 
+
+
+
+
+
+// const myDiv = document.createElement('div');
+// myDiv.textContent = 'my name'
+// myDiv.classList.add('container');
+
+// myDiv.appendChild(myImage)
+// myDiv.appendChild(myParagragh);
+// console.log(myDiv);
+const myPtag = document.createElement('p');
+myPtag.textContent = 'paragragh'
+console.log(myPtag.remove());
 
 
 const myDiv = document.createElement('div');
-myDiv.textContent = 'my name'
-myDiv.classList.add('container');
+myDiv.appendChild(myPtag);
+console.log(myDiv); 
+console.log(myPtag.remove());
 
-myDiv.appendChild(myImage)
 
-myDiv.appendChild(myParagragh);
+// const contactTitle = document.querySelector('.contact-title');
+// console.log(contactTitle.remove());
 
-console.log(myDiv);
+// const container = document.querySelector('.contact-center');
+// console.log(container.firstElementChild, 'firstElementChild');
+
+// console.log(contactTitle.firstElementChild, 'firstElementChild');
+// console.log(contactTitle.lastElementChild, 'lastElementChild');
+// console.log(contactTitle.previousElementSibling, 'previousElementSibling');
+// console.log(contactTitle.parentElement, 'parentElement');
+// console.log(contactTitle.children, 'children');
+// console.log(contactTitle.childElementCount, 'childElementCount');
 
 
 
