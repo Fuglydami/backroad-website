@@ -244,9 +244,9 @@ myDiv.appendChild(myPtag);
 console.log(myDiv); 
 console.log(myPtag.remove());
 
-
+// 
 // const contactTitle = document.querySelector('.contact-title');
-// console.log(contactTitle.remove());
+// // console.log(contactTitle.remove());
 
 // const container = document.querySelector('.contact-center');
 // console.log(container.firstElementChild, 'firstElementChild');
@@ -269,3 +269,17 @@ meDiv.appendChild(myspan)
 console.log(meDiv);
 
 
+
+const button = document.querySelector('.btn-submit');
+
+const handleButton = () => {
+  const pTag = document.querySelector('.contact-title p');
+  pTag.classList.toggle('hide');
+};
+
+button.addEventListener('click', handleButton);
+
+// button.addEventListener('click', () => {
+//   const pTag = document.querySelector('.contact-title p');
+//   pTag.classList.toggle('hide');
+// });
