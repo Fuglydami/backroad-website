@@ -239,16 +239,31 @@ writeName(2, 3);
 // console.log(contactTitle.children, 'children');
 // console.log(contactTitle.childElementCount, 'childElementCount');
 
-const button = document.querySelector('.btn-submit');
+// const button = document.querySelector('.btn-submit');
 
-const handleButton = () => {
-  const pTag = document.querySelector('.contact-title p');
-  pTag.classList.toggle('hide');
-};
+// const handleButton = () => {
+//   const pTag = document.querySelector('.contact-title p');
+//   pTag.classList.toggle('hide');
+// };
 
-button.addEventListener('click', handleButton);
+// button.addEventListener('click', handleButton);
 
 // button.addEventListener('click', () => {
 //   const pTag = document.querySelector('.contact-title p');
 //   pTag.classList.toggle('hide');
 // });
+
+const input = document.querySelector('input');
+const button = document.querySelector('.btn-submit');
+
+const handleButton = () => {
+  const inputValue = input.value;
+  alert(`My name is ${inputValue}`);
+};
+
+button.addEventListener('click', handleButton);
+
+// create a form that has 3 input (name, email and address) and a  submit button. Add event listener to the submit button.
+
+// 1) log out the name, input and address
+// 2) add an alert function to display the name, email and address as a sentence
