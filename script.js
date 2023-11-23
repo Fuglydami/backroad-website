@@ -262,24 +262,38 @@ console.log(myPtag.remove());
 
 
 
-const meDiv = document.createElement('div');
-meDiv.classList.add("header");
-meDiv.appendChild(myspan)
+// const meDiv = document.createElement('div');
+// meDiv.classList.add("header");
+// meDiv.appendChild(myspan)
 
-console.log(meDiv);
+// console.log(meDiv);
 
 
 
-const button = document.querySelector('.btn-submit');
+// const button = document.querySelector('.btn-submit');
 
-const handleButton = () => {
-  const pTag = document.querySelector('.contact-title p');
-  pTag.classList.toggle('hide');
-};
+// const handleButton = () => {
+//   const pTag = document.querySelector('.contact-title p');
+//   pTag.classList.toggle('hide');
+// };
 
-button.addEventListener('click', handleButton);
+// button.addEventListener('click', handleButton);
 
 // button.addEventListener('click', () => {
 //   const pTag = document.querySelector('.contact-title p');
 //   pTag.classList.toggle('hide');
 // });
+
+const buttons = document.querySelector('.btn-submit');
+
+const clickHolder = () => {
+  console.log("")
+};
+
+function clickButton() {
+  buttons.addEventListener("click", clickHolder)
+};
+
+
+
+
