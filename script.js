@@ -148,11 +148,11 @@ function multiply(a, b, c) {
 //   console.log('hello');
 // }
 
-const writeName = (a, b = 3) => {
-  console.log(a + b);
-};
+// const writeName = (a, b = 3) => {
+//   console.log(a + b);
+// };
 
-writeName(2, 3);
+// writeName(2, 3);
 
 // declare a function that takes 2 parameters (state and country ), where state has a default value of "lagos".
 // let output be "I reside in lagos, Nigeria"
@@ -253,17 +253,103 @@ writeName(2, 3);
 //   pTag.classList.toggle('hide');
 // });
 
-const input = document.querySelector('input');
-const button = document.querySelector('.btn-submit');
+// const input = document.querySelector('input');
+// const button = document.querySelector('.btn-submit');
 
-const handleButton = () => {
-  const inputValue = input.value;
-  alert(`My name is ${inputValue}`);
-};
+// const handleButton = () => {
+//   const inputValue = input.value;
+//   alert(`My name is ${inputValue}`);
+// };
 
-button.addEventListener('click', handleButton);
+// button.addEventListener('click', handleButton);
 
 // create a form that has 3 input (name, email and address) and a  submit button. Add event listener to the submit button.
 
 // 1) log out the name, input and address
 // 2) add an alert function to display the name, email and address as a sentence
+
+// ternaries, not operator, truthy and falsy value
+
+// const value = 40;
+// null;
+// undefined;
+// '';
+
+// if (value === 10) {
+//   console.log('value is 10');
+// } else if (value === 11) {
+//   console.log('value is 11');
+// } else if (value === 12) {
+//   console.log('value is 12');
+// } else if (value === 13) {
+//   console.log('value is 13');
+// } else {
+//   console.log(value);
+// }
+
+// function checkBooleanValue(value) {
+//   if (value) {
+//     return 'this is truthy value';
+//   } else {
+//     return 'this is falsy value';
+//   }
+// }
+
+// const result = checkBooleanValue(null);
+
+// console.log(result);
+
+// if (!value) {
+//   console.log('yes it is');
+// } else {
+//   console.log("No it's not");
+// }
+
+// OR operator, AND operator
+
+// value === 'dami' || value === 'chukwuma'
+//   ? console.log("I'm hungry")
+//   : console.log(value);
+// null;
+// undefined;
+// ('');
+
+// if (value === 'dami' || value === 'chukwuma') {
+//   console.log("I'm hungry");
+// } else {
+//   console.log(value);
+// }
+
+// a switch statement
+// const value = 'chukwuma';
+
+// switch (value) {
+//   case 'dami':
+//     console.log("I'm dami");
+//     break;
+//   case 'chukwuma':
+//     console.log("I'm chukuma");
+//     break;
+//   case 'adewale':
+//     console.log("I'm adewale");
+//     break;
+//   default:
+//     console.log(value);
+// }
+
+// javascript runs code synchronously and also be asynchronous
+// v8 engine = google chrome machine that run javscript
+
+// console.log('dami');
+
+// setTimeout(() => {
+//   console.log('chukwuma');
+// }, 2000);
+
+// console.log('adewale');
+
+// 1) write a function that takes a number as a parameter and returns "positive" if the number is greater than zero, "negative" if it's less than zero, and "zero" if it's equal to zero
+
+// 2) create a function that accepts a parameter and checks if it's a truthy value. if it is, log "it's truthy" to the console; otherwise, log "it's falsy"
+
+// 3) write a function that takes two parameters ("isWeekday" and "isVacation") representing whether it's a weekday and whether the person is on vacation, but if it's a weekday and not on vacation, it should return "Get up!"
