@@ -202,32 +202,51 @@ function multiply(a, b, c) {
 // myParagragh.textContent = 'I am a boy';
 // myParagragh.classList.add('ptag');
 
-// // console.log(myParagragh);
+// console.log(myParagragh);
 
 // const myImage = document.createElement('img');
 // myImage.src =
 //   'https://images.pexels.com/photos/18885164/pexels-photo-18885164/free-photo-of-wedding-couple-in-a-park.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1';
 // myImage.alt = 'picture of a couple';
 
-// // console.log(myImage);
+// console.log(myImage);
+
+
+// const meParagragh = document.createElement('p');
+// meParagragh.textContent = "javascript is hard but we will pull throught"
+// console.log(meParagragh)
+
+
+
+// const myspan = document.createElement('span');
+// myspan.appendChild(meParagragh)
+// console.log(myspan)
+
+
+
+
+
 
 // const myDiv = document.createElement('div');
+// myDiv.textContent = 'my name'
 // myDiv.classList.add('container');
 
+// myDiv.appendChild(myImage)
 // myDiv.appendChild(myParagragh);
+// console.log(myDiv);
+const myPtag = document.createElement('p');
+myPtag.textContent = 'paragragh'
+console.log(myPtag.remove());
 
-// // console.log(myDiv);
 
-// const list = document.createElement('ul');
-// const li = document.createElement('li');
+const myDiv = document.createElement('div');
+myDiv.appendChild(myPtag);
+console.log(myDiv); 
+console.log(myPtag.remove());
 
-// li.textContent = 'three';
-// list.appendChild(li);
-
-// console.log(list);
-
+// 
 // const contactTitle = document.querySelector('.contact-title');
-// console.log(contactTitle.remove());
+// // console.log(contactTitle.remove());
 
 // const container = document.querySelector('.contact-center');
 // console.log(container.firstElementChild, 'firstElementChild');
@@ -238,6 +257,18 @@ function multiply(a, b, c) {
 // console.log(contactTitle.parentElement, 'parentElement');
 // console.log(contactTitle.children, 'children');
 // console.log(contactTitle.childElementCount, 'childElementCount');
+
+
+
+
+
+// const meDiv = document.createElement('div');
+// meDiv.classList.add("header");
+// meDiv.appendChild(myspan)
+
+// console.log(meDiv);
+
+
 
 // const button = document.querySelector('.btn-submit');
 
@@ -255,6 +286,17 @@ function multiply(a, b, c) {
 
 // const input = document.querySelector('input');
 // const button = document.querySelector('.btn-submit');
+
+// const clickHolder = () => {
+//   console.log("")
+// };
+
+// function clickButton() {
+//   buttons.addEventListener("click", clickHolder)
+// };
+
+
+
 
 // const handleButton = () => {
 //   const inputValue = input.value;
@@ -353,3 +395,42 @@ function multiply(a, b, c) {
 // 2) create a function that accepts a parameter and checks if it's a truthy value. if it is, log "it's truthy" to the console; otherwise, log "it's falsy"
 
 // 3) write a function that takes two parameters ("isWeekday" and "isVacation") representing whether it's a weekday and whether the person is on vacation, but if it's a weekday and not on vacation, it should return "Get up!"
+
+
+const number = 50;
+
+console.log(number);
+
+if(number > 0) {
+  console.log('positive');
+}else if(number < 0){
+  console.log('negative');
+}else if(number === 0) {
+  console.log('zero');
+}else{
+  console.log('number')
+};
+
+
+const check = checkTruthy(30);
+
+console.log(check);
+
+function checkTruthy(value) {
+  if (value) {
+    console.log("it's truthy");
+  } else {
+    console.log("it's falsy");
+  }
+};
+
+
+function alarm(isWeekday, isVacation) {
+  if (isWeekday && !isVacation) {
+    return "Get up!";
+  } else {
+    return "No alarm";
+  }
+};
+console.log(alarm)
+
