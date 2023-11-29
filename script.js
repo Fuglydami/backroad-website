@@ -400,15 +400,16 @@ console.log(myPtag.remove());
 const number = 50;
 
 console.log(number);
-
-if(number > 0) {
-  console.log('positive');
-}else if(number < 0){
-  console.log('negative');
-}else if(number === 0) {
-  console.log('zero');
-}else{
-  console.log('number')
+function Getnumber (number) {
+  if(number > 0) {
+    console.log('positive');
+  }else if(number < 0){
+    console.log('negative');
+  }else if(number === 0) {
+    console.log('zero');
+  }else{
+    console.log('number')
+  };
 };
 
 
@@ -423,7 +424,7 @@ function checkTruthy(value) {
     console.log("it's falsy");
   }
 };
-
+// const alam = checkalam( )
 
 function alarm(isWeekday, isVacation) {
   if (isWeekday && !isVacation) {
@@ -432,5 +433,6 @@ function alarm(isWeekday, isVacation) {
     return "No alarm";
   }
 };
-console.log(alarm)
+// console.log(alarm);
 
+console.log(alarm(true, false));
