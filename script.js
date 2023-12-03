@@ -421,6 +421,25 @@ function multiply(a, b, c) {
 
 // An array is used for holding a list of items where the order matters
 
+// console.log(nameValue[5]);
+
+// array methods:
+
+// ==> length
+// console.log(nameValue.length);
+// ==>reverse
+// const numberValue = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// toString()
+// spread operator
+
+// const numberValue2 = [...numberValue];
+// console.log(numberValue2);
+// console.log(numberValue.reverse());
+// ==>slice
+// console.log(numberValue.slice(2, 7));
+
+// reverse the numberValue and spread the output of the reserved value into another variable, then slice out from index 2 to 4
+
 const nameValue = [
   'dami',
   'chidi',
@@ -431,21 +450,55 @@ const nameValue = [
   'jide',
 ];
 
-// console.log(nameValue[5]);
+// nameValue.push('Jennifer', 'esther', 'olajide');
+// console.log(nameValue);
 
-// array methods:
+// const nameValue2 = [...nameValue, 'lux'];
+// console.log(nameValue2);
 
-// ==> length
-// console.log(nameValue.length);
-// ==>reverse
-const numberValue = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// ==>unshift
+// nameValue.unshift('Jennifer', 'esther', 'olajide');
+// console.log(nameValue);
+// ==>pop
 
-// spread operator
-
-// const numberValue2 = [...numberValue];
+// nameValue.pop();
+console.log(nameValue);
+// const numberValue2 = [...nameValue];
+// numberValue2.pop();
 // console.log(numberValue2);
-// console.log(numberValue.reverse());
-// ==>slice
-// console.log(numberValue.slice(2, 7));
 
-// reverse the numberValue and spread the output of the reserved value into another variable, then slice out from index 2 to 4
+// const numberValue = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// ==>toString()
+// console.log(numberValue.toString());
+// console.log(typeof numberValue[0]);
+
+// const comments = [
+//   { text: 'cool beans', id: 123 },
+//   { text: 'Love this', id: 133 },
+//   { text: 'Neoto', id: 233 },
+//   { text: 'goog bikes', id: 333 },
+// ];
+
+// console.log(comments[3]);
+// console.log(comments.pop());
+// console.log(comments.unshift())
+
+// const nameValue = [
+//   'dami',
+//   'chidi',
+//   'ola',
+//   'ade',
+//   'ogochukwu',
+//   'austin',
+//   'jide',
+// ];
+
+// console.log(
+//   nameValue.findIndex((item) => {
+//     if (item === 'austin') {
+//       return true;
+//     } else {
+//       return false;
+//     }
+//   })
+// );
