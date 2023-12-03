@@ -211,21 +211,13 @@ function multiply(a, b, c) {
 
 // console.log(myImage);
 
-
 // const meParagragh = document.createElement('p');
 // meParagragh.textContent = "javascript is hard but we will pull throught"
 // console.log(meParagragh)
 
-
-
 // const myspan = document.createElement('span');
 // myspan.appendChild(meParagragh)
 // console.log(myspan)
-
-
-
-
-
 
 // const myDiv = document.createElement('div');
 // myDiv.textContent = 'my name'
@@ -234,17 +226,16 @@ function multiply(a, b, c) {
 // myDiv.appendChild(myImage)
 // myDiv.appendChild(myParagragh);
 // console.log(myDiv);
-const myPtag = document.createElement('p');
-myPtag.textContent = 'paragragh'
-console.log(myPtag.remove());
+// const myPtag = document.createElement('p');
+// myPtag.textContent = 'paragragh';
+// console.log(myPtag.remove());
 
+// const myDiv = document.createElement('div');
+// myDiv.appendChild(myPtag);
+// console.log(myDiv);
+// console.log(myPtag.remove());
 
-const myDiv = document.createElement('div');
-myDiv.appendChild(myPtag);
-console.log(myDiv); 
-console.log(myPtag.remove());
-
-// 
+//
 // const contactTitle = document.querySelector('.contact-title');
 // // console.log(contactTitle.remove());
 
@@ -258,17 +249,11 @@ console.log(myPtag.remove());
 // console.log(contactTitle.children, 'children');
 // console.log(contactTitle.childElementCount, 'childElementCount');
 
-
-
-
-
 // const meDiv = document.createElement('div');
 // meDiv.classList.add("header");
 // meDiv.appendChild(myspan)
 
 // console.log(meDiv);
-
-
 
 // const button = document.querySelector('.btn-submit');
 
@@ -294,9 +279,6 @@ console.log(myPtag.remove());
 // function clickButton() {
 //   buttons.addEventListener("click", clickHolder)
 // };
-
-
-
 
 // const handleButton = () => {
 //   const inputValue = input.value;
@@ -396,43 +378,74 @@ console.log(myPtag.remove());
 
 // 3) write a function that takes two parameters ("isWeekday" and "isVacation") representing whether it's a weekday and whether the person is on vacation, but if it's a weekday and not on vacation, it should return "Get up!"
 
+// const number = 50;
 
-const number = 50;
+// console.log(number);
+// function Getnumber (number) {
+//   if(number > 0) {
+//     console.log('positive');
+//   }else if(number < 0){
+//     console.log('negative');
+//   }else if(number === 0) {
+//     console.log('zero');
+//   }else{
+//     console.log('number')
+//   };
+// };
 
-console.log(number);
-function Getnumber (number) {
-  if(number > 0) {
-    console.log('positive');
-  }else if(number < 0){
-    console.log('negative');
-  }else if(number === 0) {
-    console.log('zero');
-  }else{
-    console.log('number')
-  };
-};
+// const check = checkTruthy(30);
 
+// console.log(check);
 
-const check = checkTruthy(30);
-
-console.log(check);
-
-function checkTruthy(value) {
-  if (value) {
-    console.log("it's truthy");
-  } else {
-    console.log("it's falsy");
-  }
-};
+// function checkTruthy(value) {
+//   if (value) {
+//     console.log("it's truthy");
+//   } else {
+//     console.log("it's falsy");
+//   }
+// };
 // const alam = checkalam( )
 
-function alarm(isWeekday, isVacation) {
-  if (isWeekday && !isVacation) {
-    return "Get up!";
-  } else {
-    return "No alarm";
-  }
-};
-// console.log(alarm);
+// function alarm(isWeekday, isVacation) {
+//   if (isWeekday && !isVacation) {
+//     return "Get up!";
+//   } else {
+//     return "No alarm";
+//   }
+// };
+// // console.log(alarm);
 
-console.log(alarm(true, false));
+// console.log(alarm(true, false));
+
+// ARRAYS
+
+// An array is used for holding a list of items where the order matters
+
+const nameValue = [
+  'dami',
+  'chidi',
+  'ola',
+  'ade',
+  'ogochukwu',
+  'austin',
+  'jide',
+];
+
+// console.log(nameValue[5]);
+
+// array methods:
+
+// ==> length
+// console.log(nameValue.length);
+// ==>reverse
+const numberValue = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+// spread operator
+
+// const numberValue2 = [...numberValue];
+// console.log(numberValue2);
+// console.log(numberValue.reverse());
+// ==>slice
+// console.log(numberValue.slice(2, 7));
+
+// reverse the numberValue and spread the output of the reserved value into another variable, then slice out from index 2 to 4
