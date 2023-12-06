@@ -484,9 +484,15 @@ const comments = [
 // foreach
 // filter
 // map
+//
+// adding a name property to the array of object
+comments.forEach((comment) => {
+  comment.name = 'dami';
+});
+console.log(comments);
 
 const mapArray = comments.map((item) => item.text + ' ' + 'dami');
-console.log(mapArray);
+// console.log(mapArray);
 
 const findBeansId = comments.find((item) => item.id === 333);
 const findBeansText1 = comments.find((item) => item.text === 'cool beans');
