@@ -462,7 +462,7 @@ const nameValue = [
 // ==>pop
 
 // nameValue.pop();
-console.log(nameValue);
+// console.log(nameValue);
 // const numberValue2 = [...nameValue];
 // numberValue2.pop();
 // console.log(numberValue2);
@@ -472,13 +472,45 @@ console.log(nameValue);
 // console.log(numberValue.toString());
 // console.log(typeof numberValue[0]);
 
-// const comments = [
-//   { text: 'cool beans', id: 123 },
-//   { text: 'Love this', id: 133 },
-//   { text: 'Neoto', id: 233 },
-//   { text: 'goog bikes', id: 333 },
-// ];
+const comments = [
+  { text: 'cool beans', id: 123 },
+  { text: 'kunle love to eat', id: 723 },
+  { text: 'Love this', id: 33 },
+  { text: 'Neoto', id: 233 },
+  { text: 'goog bikes', id: 333 },
+];
 
+// find
+// foreach
+// filter
+// map
+
+const mapArray = comments.map((item) => item.text + ' ' + 'dami');
+console.log(mapArray);
+
+const findBeansId = comments.find((item) => item.id === 333);
+const findBeansText1 = comments.find((item) => item.text === 'cool beans');
+const findBeansText2 = comments.find((item) =>
+  item.text.includes('cool beans')
+);
+
+// const filterArray = comments.filter((item) => item.id < 200);
+comments.sort((a, b) => a.id - b.id);
+
+// console.log(comments);
+// const loopComment = comments.forEach((item) => {
+//   console.log(item.text + ' ' + 'dami');
+// });
+
+// const numArray = [4, 1, 9, 2, 5, 3, 7, 8];
+// const alphabetArray = ['b', 'a', 'k', 'd', 'c'];
+// console.log(alphabetArray.sort());
+
+// console.table(filterArray);
+// console.log(comments);
+
+// console.log(findBeansId);
+// console.log(findBeansText2);
 // console.log(comments[3]);
 // console.log(comments.pop());
 // console.log(comments.unshift())
