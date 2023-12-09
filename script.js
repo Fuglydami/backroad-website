@@ -480,6 +480,7 @@ const comments = [
   { text: 'goog bikes', id: 333 },
 ];
 
+// for loop
 // find
 // foreach
 // filter
@@ -489,7 +490,7 @@ const comments = [
 comments.forEach((comment) => {
   comment.name = 'dami';
 });
-console.log(comments);
+// console.log(comments);
 
 const mapArray = comments.map((item) => item.text + ' ' + 'dami');
 // console.log(mapArray);
@@ -540,3 +541,32 @@ comments.sort((a, b) => a.id - b.id);
 //     }
 //   })
 // );
+
+// for (let i = 10; i < 120; i += 2) {
+//   console.log(i);
+// }
+
+const numbers = [2, 34, 3, 23, 42, 3, 1, 65, 364, 5, 10, 65];
+
+// for (let i = 0; i < numbers.length; i++) {
+//   console.log(numbers[i] + ' ' + 'dami');
+// }
+
+// for (const number of numbers) {
+//   console.log(number + ' ' + 'dami');
+// }
+
+const damilare = {
+  name: 'dami',
+  age: 60,
+  cool: true,
+};
+
+for (const prop in damilare) {
+  console.log(prop);
+}
+
+// 1) create and array named "fruits" containing the names of three different fruits. log out the array in the console
+// 2) add two more fruits to the "fruits" array, then, remove the second fruit from the array. log out the modified array
+// 3) use a loop to iterate through the "fruits" array and log each fruit on a new line
+// 4) create a function called 'findElement' that takes and array and a target element as parameters. The function should return the index of the target element in the array, or -1 if the element is not found. Test the function with the 'numbers' array and a target element of your choice
