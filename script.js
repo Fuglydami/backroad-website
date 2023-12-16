@@ -562,11 +562,35 @@ const damilare = {
   cool: true,
 };
 
-for (const prop in damilare) {
-  console.log(prop);
-}
+// for (const prop in damilare) {
+//   console.log(prop);
+// }
 
 // 1) create and array named "fruits" containing the names of three different fruits. log out the array in the console
 // 2) add two more fruits to the "fruits" array, then, remove the second fruit from the array. log out the modified array
 // 3) use a loop to iterate through the "fruits" array and log each fruit on a new line
 // 4) create a function called 'findElement' that takes and array and a target element as parameters. The function should return the index of the target element in the array, or -1 if the element is not found. Test the function with the 'numbers' array and a target element of your choice
+
+const fruits = ['apple', 'banana', 'orange'];
+
+// 1) console.log(fruits)
+
+// 2) fruits.push("grape","kiwi")
+// fruits.splice(1,1)
+// console.log(fruits)
+
+// 3) const updatedFruit = fruits.map((fruit) => {
+//   console.log(fruit);
+// });
+
+// 4)  function findElement(array, target) {
+//   for (let i = 0; i < array.length; i++) {
+//     if (array[i] === target) {
+//       return i;
+//     }
+//     return -1;
+//   }
+// }
+
+// const result = findElement([1, 2, 3, 4, 5], 4);
+// console.log(result);
